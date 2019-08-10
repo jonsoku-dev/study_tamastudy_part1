@@ -1,7 +1,7 @@
 {
   "name": "tamastudy",
   "version": "1.0.0",
-  "description": "二子玉川でする勉強会のProjectです。 ",
+  "description": "二子玉川でする「Tamastudy」勉強会のProjectです。 ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
