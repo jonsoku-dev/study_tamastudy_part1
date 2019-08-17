@@ -11,7 +11,7 @@ $ npm run watch
 
 # 3. live-server 켜기 (터미널 2)
 ```bash
-$ live-servers
+$ live-server
 ```
 
 # 4. 작업
