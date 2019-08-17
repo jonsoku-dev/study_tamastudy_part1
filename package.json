@@ -4,7 +4,7 @@
   "description": "二子玉川でする「Tamastudy」勉強会のProjectです。 ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node-sass scss/main.scss css/main.css -w"
   },
   "repository": {
     "type": "git",
