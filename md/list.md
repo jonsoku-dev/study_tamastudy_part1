@@ -1,0 +1,12 @@
+# PAGE LIST
+
+- [x] MAIN
+- [x] PROFILE
+- [x] NOTICE
+- [x] FREE BOARD
+- [x] INFOMATION BOARD
+- [x] CONTACT 
+
+
+# COLOR
+
