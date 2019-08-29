@@ -1,0 +1,135 @@
+//contact-logo
+.container {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+//header
+.contact-header {
+    overflow: hidden;
+    margin-top: 24px;
+    &-logo {
+        float: left;
+        width: 90%;
+        &-img {
+            margin-left: 32px;
+        }
+    }
+    &-btn {
+        float: left;
+        width: 9%;
+        text-align: right;
+        &-img {
+            padding-top: 2px;
+            width: 50%;
+        }
+    }
+}
+
+//main
+.contact-main {
+    .contact-main-text {
+        margin: 0 auto;
+        margin-left: 8%;
+        float: left;
+        width: 32%;
+        .contact-main-text-title {
+            font-size: 4rem;
+        }
+    }
+    .contact-img {
+        float: right;
+        width: 51%;
+        margin-top: 225px;
+        margin-right: 29px;
+        padding: 20px;
+    }
+}
+
+//tab
+.contact-tab {
+    margin-left: 32px;
+    margin-top: 8%;
+    width: 45%;
+    &-text {
+        color: #686868;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 27px;
+    }
+    &-item {
+        margin-bottom: 3%;
+        border: 1px #E5E5E5;
+        &-btn {
+            color: #000000;
+            font-size: 24px;
+            line-height: 27px;
+            border-radius: 3px;
+            margin-right: 2%;
+            font-weight: lighter;
+        }
+    }
+}
+
+//form
+.contact-form {
+    margin-left: 32px;
+    margin-top: 8%;
+    &-userInfo {
+        height: 86px;
+        margin-bottom: 32px;
+        &-item {
+            height: 100%;
+            width: 25%;
+            float: left;
+            border-bottom: 1px solid black;
+            margin-right: 40px;
+            p {
+                line-height: 27px;
+                color: #686868;
+            }
+        }
+    }
+    &-inquiry {
+        height: 86px;
+        &-item {
+            height: 100%;
+            width: 70%;
+            float: left;
+            border-bottom: 1px solid black;
+            margin-right: 40px;
+            p {
+                line-height: 27px;
+                color: #686868;
+            }
+        }
+    }
+}
+
+//button
+.contact-button {
+    margin-left: 32px;
+    margin-top: 8%;
+    height: 80px;
+    button {
+        width: 204px;
+        height: 60px;
+        border: 4px solid #000000;
+        box-sizing: border-box;
+        border-radius: 32px;
+    }
+}
+
+//address
+.contact-address {
+    p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 27px;
+        color: #000000;
+        text-align: right;
+        margin-right: 20px;
+    }
+}
