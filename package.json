@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rakutenjongseok/tamastudy/issues"
   },
-  "homepage": "https://github.com/rakutenjongseok/tamastudy#readme"
+  "homepage": "https://github.com/rakutenjongseok/tamastudy#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
