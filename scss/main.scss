@@ -1,6 +1,61 @@
-@import "contact";
-@import "freeBoard";
-@import "information";
-@import "jong";
-@import "notice";
-@import "profile";
+// // base
+// @import "variables";
+// @import "mixin";
+// @import "reset";
+
+// // pages
+// @import "contact";
+// @import "freeBoard";
+// @import "information";
+// @import "jong";
+// @import "notice";
+// @import "profile";
+// @import "master"
+
+@mixin flexCenter($value: center) {
+  display: flex;
+  justify-content: $value;
+  align-items: center;
+}
+
+@mixin color($font-color: red, $bg-color: white, $font-size: 20px) {
+  color: $font-color;
+  background-color: $bg-color;
+  font-size: $font-size;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  height: inherit;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &-logo {
+    @include flexCenter();
+    font-size: 10rem;
+  }
+  &-title {
+    @include flexCenter();
+  }
+}
+.nav {
+  @include flexCenter(space-around);
+  .test {
+    background-color: rgba(0, 0, 255, 0.356);
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    @include flexCenter();
+    @include color(red, 10px);
+  }
+}
