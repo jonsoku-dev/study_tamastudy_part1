@@ -76,6 +76,12 @@ $ git checkout master
 ### 2-7. merge하기
 
 ```bash
+$ git merge upstream/<포크한 레포의 브랜치>
+
+# tamastudy react , markup study의 git_practice에서는
+$ git merge upstream/master
+
+# tamastudy react , markup study의 실제 스터디 레포지토리에서는
 $ git merge upstream/dev
 ```
 
@@ -92,3 +98,5 @@ $ git merge upstream/dev
 <img src="./img/fork/fork13.png">
 
 ## 5. 전/후가 다르다면 원본과 다르다는의미! 즉 최신화를했다 !
+
+## 6. fetch + merge = pull
