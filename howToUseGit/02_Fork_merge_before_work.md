@@ -61,9 +61,9 @@ $ git fetch upstream
 
 <img src="./img/fork/fork12.png">
 
-### 2-5. upstream repository 의 master branch (혹은 원하는 branch) 로부터 나의 local master branch 로 merge 한다.
+### 2-5. tama repository 의 master branch (혹은 원하는 branch) 로부터 나의 local master branch 로 merge 한다.
 
-> upstream = 원본
+> tama = 원본
 
 ### 2-6. 일단 자신의 master branch로 변경
 
@@ -73,27 +73,20 @@ $ git checkout master
 
 > 이미 master라면 변경안해도됨..
 
-### 2-7. merge하기
+### 2-7. 원본 repositor의 master브랜치 pull
 
 ```bash
-$ git merge upstream/<포크한 레포의 브랜치>
+$ git pull tama master
 
-# tamastudy react , markup study의 git_practice에서는
-$ git merge upstream/master
-
-# tamastudy react , markup study의 실제 스터디 레포지토리에서는
-$ git merge upstream/dev
 ```
 
-> git merge upstream/master 하면 원본의 master repository를 기준으로 최신화
-> <br>
-> 하지만 보통 원본 repo에서는 dev branch에서 소스관리를 하기 때문에 이번에도 원본 dev branch기준으로 업데이트할꺼임!
+> git pull tama master 하면 원본의 master repository를 기준으로 최신화
 
-## 3. merge 하기 전
+## 3. pull 하기 전
 
 <img src="./img/fork/fork11.png">
 
-## 4. merge 하고 난 후
+## 4. pull 하고 난 후
 
 <img src="./img/fork/fork13.png">
 
